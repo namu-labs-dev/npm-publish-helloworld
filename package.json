@@ -1,6 +1,6 @@
 {
     "name": "@namulabsdev/npm-publish-helloworld",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "./dist/index.cjs",
     "module": "./dist/index.js",
     "types": "./dist",
@@ -18,7 +18,7 @@
         "build:generate-types": "npx tsc",
         "build:js": "node build.js",
         "clean": "rm -rf dist",
-        "publish:npm": "npm run prepack && yarn publish --access=public"
+        "publish:npm": "npm run build && yarn publish --access=public"
     },
     "devDependencies": {
         "esbuild": "^0.21.5",
