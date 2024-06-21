@@ -1,4 +1,4 @@
-# npm 배포 helloworld
+# npm publish helloworld
 
 * build 
 
