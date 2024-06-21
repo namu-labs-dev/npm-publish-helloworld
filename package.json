@@ -5,6 +5,12 @@
     "module": "./dist/index.js",
     "types": "./dist",
     "type": "module",
+    "author": "nalumabsdev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com//namu-labs-dev/npm-publish-helloworld.git"
+    },
+    "homepage": "https://www.namu-labs.com/",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
