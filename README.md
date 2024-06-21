@@ -22,13 +22,13 @@ $ publish:npm
 * install
 
 ```bash
-$ npm i @namulabsdev/helloworld 
+$ npm i @namulabsdev/npm-publish-helloworld 
 ```
 
 * test.js
 
 ```javascript
-const {a, b} = require('@namulabsdev/helloworld');
+const {a, b} = require('@namulabsdev/npm-publish-helloworld');
 
 a(1234)
 b(1234)
@@ -41,7 +41,7 @@ $ node test.js
 * test.mjs
 
 ```javascript
-import { a, b } from '@namulabsdev/helloworld';
+import { a, b } from '@namulabsdev/npm-publish-helloworld';
 
 a(1234)
 b(1234)
@@ -54,7 +54,7 @@ $ node test.mjs
 * test.cjs
 
 ```javascript
-const {a, b} = require('@namulabsdev/helloworld');
+const {a, b} = require('@namulabsdev/npm-publish-helloworld');
 
 a(1234)
 b(1234)
@@ -67,7 +67,7 @@ $ node test.cjs
 * test.ts
 
 ```typescript
-import { a, b } from '@namulabsdev/helloworld';
+import { a, b } from '@namulabsdev/npm-publish-helloworld';
 
 a(12345)
 b(12345)
